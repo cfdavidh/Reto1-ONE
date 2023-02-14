@@ -1,0 +1,140 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.logo {
+	width: 40px;
+	margin:5px 10px;
+}
+
+body {
+	background: #232323;
+}
+
+main {
+	display: flex;
+}
+
+.zona1 {
+	background: #232323;
+	margin-left: 150px;
+} 
+
+.ingresarTexto1 {
+	border: none;
+	text-transform: lowercase;
+	outline:none;
+	margin-top: 30px;
+	width: 550px;
+	height: 360px;
+	background: #232323;
+	color: #fff;
+}
+
+.logito {
+	width: 27px;
+	display: inline-block;
+}
+
+.parrafo {
+	display: inline-block;
+}
+
+.acento {
+	font-size: 15px;
+	line-height: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+
+.botonZona1_1 {
+	margin-bottom: 20px;
+	background: #0EA90B;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.botonZona1_1:hover {
+	background: #108E0E;
+}
+.botonZona1_1:active {
+	background: #097508;
+}
+
+.botonZona1_2 {
+	margin-bottom: 20px;
+	background: #35E891;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.botonZona1_2:hover {
+	background: #1FBE71;
+}
+.botonZona1_2:active {
+	background: #0E8C4F;
+}
+
+
+.zona2 {
+	background: #484747;
+	position: relative;
+	left: 150px;
+	border-radius: 32px;
+	margin-bottom: 14px;
+	height: 500px;
+}
+
+.ingresarTexto2 {
+	border: none;
+	text-transform: lowercase;
+	outline:none;
+	width: 250px;
+	height: 360px;
+	display: block;
+	font-size: 18px;
+	background: #484747;
+	background-image: url("muneco.jpg");
+	background-repeat: no-repeat;
+	border-radius: 12px;
+	margin-top: 20px;
+	color: #fff;
+}
+.ingresarTexto2:focus {
+	outline: none;
+}
+.ingresarTexto2::moz-selection{
+	background-color: transparent;
+}
+.ingresarTexto2::selection{
+	background-color: transparent;
+}
+
+
+
+.botonZona2 {
+	
+	margin-top: 20px;
+	margin-left: 70px;
+	border-radius: 20px;
+	border: none;
+	background: #35E891;
+	display: block;
+	cursor: pointer;
+}
+.botonZona2:hover {
+	background: #1FBE71;
+}
+.botonZona2:active {
+	background: #0E8C4F;
+}
+
+#mensaje {
+	font-size: 12px;
+	margin-left: 50px;
+	color: #fff;
+}
